@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<style>
+img {
+    border-radius: 50%;
+}
+</style>
+<style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 55px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+  <div  class="text" style=" text-align:center;font-family:verdana;color:orange;font-size:65px">我的个人规划</div>
+<br><br><br>
+<p style="text-align: center;">
+<img  src="./img/QQ图片20220116114739.jpg"  width="232" height="232"> </p>
+<br><br><br>
+<p style="text-align: center;">
+  <button class="button" style="vertical-align:middle"><span><a href="辅助资料/辅助资料1.html" style="text-decoration:none;">计算机相关课程</a></span></button>
+  <button class="button" style="vertical-align:middle"><span><a href="辅助资料/辅助资料2.html" style="text-decoration:none;">我对计算机专业的认识</a> </span></button>
+  <button class="button" style="vertical-align:middle"><span><a href="辅助资料/辅助资料3.html" style="text-decoration:none;">我个人的学业规划</a> </span></button>
+</body>
+<body style="background-color:yellow;">
+
+</body>
+</html>
